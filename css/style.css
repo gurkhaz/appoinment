@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+
+html {
+	overflow-x: hidden;
+}
+body {
+	font-family: sans-serif;
+	background-color:#fff;
+	color: #000;
+	font-size: 16px;
+	
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 !important;
+}
+
+header {
+	color:#000;
+	background-color:#91bb3f;
+	height:100px;
+}
+
+.title{
+	
+	color:#fff;
+	
+}
+
+.title h1{
+	padding: 20px;
+}
+
+.button{
+	margin:30px 0 30px 0;
+}
+
+.btn-success{
+	background-color: #91bb3f;
+    border-radius: 5px;
+    color: #fff;	
+	border:none;
+	padding:6px 15px 6px 15px;
+}
+
+.newForm{
+	margin:40px 0 50px 0;
+	
+}
+.newForm input, label {
+	margin:10px 0 10px 0;
+}
+
+
+.small_input input{
+	padding:3px 0 3px 10px;	
+}
+
+.top_form {
+	margin-bottom:30px;	
+}

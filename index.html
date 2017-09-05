@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>Appoinment</title>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+ <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+ 
+    <header>
+    	<div class="container">
+    		<div class="title">
+            	<h1>Appoinment</h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner">
+    	<div class="container">    
+        
+        <div class="button">
+        
+        <div class="alert alert-danger" style="display:none;">
+          <strong></strong>
+        </div>
+        <button class="btn-success"  id="new">NEW</button>       
+          </div> 
+          <div class="button" id="add" style="display:none">
+          
+          <form method="post" action="" id="appoinmentForm" class="form-horizontal">
+            <input type="submit" class="btn-success" value="ADD">
+              
+            <input type="button" class="btn-success" id="cancel" value="CANCEL" />
+            
+            <div class="newForm">
+             
+             
+              <label class="control-label col-md-1" for="date">DATE:</label>
+           
+              <input type="date" class="col-md-3" min=""  name="date" id="date" placeholder="Date"><br/>
+               <label class="control-label col-md-1" for="time">TIME:</label>
+           
+              <input type="time" class="col-md-3" name="time"  id="time" placeholder="Time"><br/>
+               <label class="control-label col-md-1" for="desc">DESC:</label>
+           
+              <input type="text" class="col-md-3" name="desc" id="desc" placeholder="Description">
+           
+           
+   			 </div>
+               
+        </form>
+          </div> 
+            <div class="top_form pull-right">
+                
+                <form method="" action="">
+                    <div class="small_input">
+                        <input type="text" placeholder="Search" required>
+                        <button class="btn-success">SEARCH</button>
+                    </div>
+                  
+                </form>
+    		</div>
+           
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>DATE</th>
+                    <th>TIME</th>
+                    <th>DESCRIPTION</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                  </tr>
+                  <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                  </tr>
+                  <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                  </tr>
+                </tbody>
+              </table>
+            
+        </div><!-- container end -->
+    </section>
+    
+    
+    
+
+    <footer>
+   
+        <script src="js/custom.js"></script>
+    </footer>
+
+
+</body>
+</html>
